@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  box-sizing: content-box;
+}
+nav{
+  background-color: #F55A5A;
+}
+.nav--logo{
+  display: block;
+  margin: 0 auto;
+  padding: 15px;
+}
+.card{
+  display: flex;
+  padding: 15px;
+}
+.card--img img{
+  max-width: 125px;
+  min-height: 168px;
+  border-radius: 10px;
+}
+.card--info{
+  padding: 10px ;
+}
+.card--info-location{
+  display: flex;
+  flex-direction:row;
+  padding: px;
+}
+.placeholder{
+  max-width: 7px;
+  height: fit-content;
+  width: fit-content;
+  min-width: 7px;     
+}
+.card--info-country{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.741px;  
+  padding: 0 3px;
+}
+.card--info-link{
+  color: #918E9B;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;  
+}
+.card--info-title{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;  
+}
+.date{
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 5px;  
+  margin-bottom: 10px;
+}
+.card--info-description{
+  margin-top: 10px;
+  color: #2B283A;
+  font-family: Inter;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.36px */  
+}
